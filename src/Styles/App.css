@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  min-height: 100vh;
+  background-color: #eef2ff;
+}
+
+.content-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,270 @@
+.calendarView-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.calendarView-text p {
+    color: #181a99;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.calendarView-arrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #181a99;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.calendarView-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.calendar-days p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #06073a;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.calendar-date-time-1 {
+    background-color: #dce4fc;
+    padding: 8px 15px 1px 8px;
+    border-radius: 20px;
+
+}
+
+.calendar-date p {
+    text-align: center;
+    font-size: 26px;
+    color: #181a99;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.calendar-time p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #06073a;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 20px;
+
+}
+
+.calendarTime2-1 {
+    background-color: #181a99;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.calendarTime2-3 {
+    background-color: #181a99;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.calendarTime1-5,
+.calendarTime1-6 {
+    background-color: #181a99;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+@media(max-width:375px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}
+@media(max-width:412px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}
+@media(max-width:768px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}
+@media(max-width:1024px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}
+@media(max-width:1280px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}
+@media(max-width:1440px) {
+    .calendarView-text {
+        flex-wrap: nowrap;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .calendarView-card {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .calendarView-text p {
+        font-size: 24px;
+    }
+
+    .calendarView-arrow {
+        font-size: 24px;
+    }
+
+    .calendar-days p {
+        font-size: 20px;
+    }
+
+    .calendar-date p {
+        font-size: 35px;
+    }
+
+    .calendar-time p {
+        font-size: 20px;
+    }
+}

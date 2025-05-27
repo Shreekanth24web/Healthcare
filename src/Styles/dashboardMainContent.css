@@ -1,0 +1,99 @@
+.dashboardMainContent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;  
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+ 
+.dashMainContent-calendarView{
+    display: flex;
+    flex-direction: column;
+    background-color:  #eef2ff; 
+}
+.dashOverview-Anatomy-HealthStatus {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    flex-wrap: wrap; 
+}
+
+@media(max-width:375px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}
+@media(max-width:412px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}
+@media(max-width:1280px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}
+@media(max-width:1440px){
+    .dashOverview-Anatomy-HealthStatus{
+        flex-wrap: nowrap; 
+        margin-left: 80px;
+    }
+    .dashMainContent{
+        flex-wrap: nowrap; 
+        margin-right: 280px;
+    }
+    .dashMainContent-calendarView{
+        width: 100%;
+    }
+}

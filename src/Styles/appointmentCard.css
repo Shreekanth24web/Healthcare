@@ -1,0 +1,40 @@
+.appointment-card{
+    display: flex;
+    align-items: center;  
+    gap: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    padding: 0px 50px; 
+}
+.appointment-card-data{ 
+    border: 0px solid #181a99; 
+    padding: 25px 25px 20px 25px;
+    border-radius: 30px;
+    background-color: #4F46E5;
+    color: white; 
+    cursor: pointer;
+}
+.appointment-card-data-1{
+    flex: 1;
+    background-color: #dce4fc;
+    color: #06073a;
+}
+.specialist-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.doctorName-text,.time-text{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.appointment-card-teeth-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.appointment-card-teeth-img img{
+    height: 40px;
+}
+ 

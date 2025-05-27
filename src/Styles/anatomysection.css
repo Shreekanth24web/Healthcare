@@ -1,0 +1,156 @@
+.dashboard-text p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #181a99;
+    margin-bottom: 15px;
+}
+
+.anatomysection {
+    background-color: #eef2ff;
+    border: 0px solid red;
+    width: 340px;
+    height: 440px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+.anatomysection img {
+    height: 430px;
+    margin-top: -40px;
+}
+
+.anotomy-zoom {
+    font-size: 28px;
+    color: gray;
+    margin-left: 230px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.heart,
+.leg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 266px;
+    margin-left: 166px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.heart img,
+.leg img {
+    height: 45px;
+    background-color: #3c33ef56;
+}
+
+.heart p,
+.leg p {
+    background-color: #3c33ef;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 140px;
+    font-weight: 400;
+}
+
+.leg {
+    margin-top: 456px;
+    margin-left: -37px;
+}
+
+/* Responsive styles */
+@media (max-width: 375px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 460px;
+        margin-left: -37px;
+    }
+}
+@media (max-width: 412px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 460px;
+        margin-left: -37px;
+    }
+}
+@media (max-width: 768px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 450px;
+        margin-left: -37px;
+    }
+}
+@media (max-width: 1024px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 450px;
+        margin-left: -37px;
+    }
+}
+@media (max-width: 1280px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 450px;
+        margin-left: -37px;
+    }
+}
+ 
+@media (max-width: 1440px) {
+
+    .heart,
+    .leg {
+        margin-top: 252px;
+        margin-left: 166px;
+        flex-wrap: nowrap;
+    }
+
+    .leg {
+        margin-top: 450px;
+        margin-left: -37px;
+    }
+}
+ 
