@@ -113,9 +113,8 @@
         margin-left: 50px;
     }
 
-    .search-input input {
-        padding: 14px 10px;
-        width: 400px;
+    .search-input input { 
+        width: 580px;
     }
 
     .profile-img {
@@ -124,7 +123,7 @@
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }
 @media(max-width:412px) {
@@ -133,41 +132,45 @@
     }
 
     .search-bar {
-        margin-left: 47px;
+        margin-left: 50px;
     }
-    
+
     .search-input input { 
-        width: 400px;
+        width: 580px;
     }
-      .profile-img {
+
+    .profile-img {
         flex-wrap: nowrap;
         width: 0px;
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }
 @media(max-width:768px) {
-    .header {
+   .header {
         flex-wrap: nowrap;
     }
 
     .search-bar {
-        margin-left: 47px;
+        margin-left: 50px;
     }
-    
+
     .search-input input { 
-        width: 400px;
+        width: 580px;
     }
-      .profile-img {
+
+    .profile-img {
         flex-wrap: nowrap;
         width: 0px;
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
+
+     
 }
 @media(max-width:1024px) {
     .header {
@@ -175,55 +178,63 @@
     }
 
     .search-bar {
-        margin-left: 47px;
+        margin-left: 50px;
     }
-    
+
     .search-input input { 
-        width: 400px;
+        width: 580px;
     }
-      .profile-img {
+
+    .profile-img {
         flex-wrap: nowrap;
         width: 0px;
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }
 @media(max-width:1280px) {
-    .header {
+     .header {
         flex-wrap: nowrap;
     }
 
     .search-bar {
-        margin-left: 47px;
+        margin-left: 50px;
     }
-    
+
     .search-input input { 
-        width: 400px;
+        width: 580px;
     }
-      .profile-img {
+
+    .profile-img {
         flex-wrap: nowrap;
         width: 0px;
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }
 @media(max-width:1440px) {
     .header {
         flex-wrap: nowrap;
     }
-    .search-input input { 
-        width: 400px;
+
+    .search-bar {
+        margin-left: 50px;
     }
-      .profile-img {
+
+    .search-input input { 
+        width: 580px;
+    }
+
+    .profile-img {
         flex-wrap: nowrap;
         width: 0px;
     }
 
     .profile-img i {
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }

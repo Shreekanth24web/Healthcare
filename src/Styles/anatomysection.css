@@ -4,13 +4,14 @@
     color: #181a99;
     margin-bottom: 15px;
     margin-top: -15px;
-    
+
 }
 
 .anatomysection img {
     height: 300px;
     margin-top: -40px;
 }
+
 .anatomysection {
     background-color: #eef2ff;
     border: 0px solid red;
@@ -50,6 +51,7 @@
     margin-top: 338px;
     margin-left: -45px;
 }
+
 .heart img,
 .leg img {
     height: 30px;
@@ -71,85 +73,128 @@
 
     .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 460px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
+
 @media (max-width: 412px) {
 
     .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 460px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
 @media (max-width: 768px) {
 
     .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 450px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
 @media (max-width: 1024px) {
 
-    .heart,
+   .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 450px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
 @media (max-width: 1280px) {
 
-    .heart,
+  .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 450px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
  
 @media (max-width: 1440px) {
 
-    .heart,
+   .heart,
     .leg {
-        margin-top: 252px;
-        margin-left: 166px;
+        margin-top: 200px;
+        margin-left: 117px;
         flex-wrap: nowrap;
     }
 
     .leg {
-        margin-top: 450px;
-        margin-left: -37px;
+        margin-top: 330px;
+        margin-left: -53px;
+    }
+
+    .heart p{
+        width: 160px;
+    }
+    .leg p {
+        width: 130px;
     }
 }
- 
+  
