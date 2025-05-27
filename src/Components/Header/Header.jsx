@@ -1,5 +1,4 @@
 import profileImg from '../../Assets/Profile-Male-PNG.png'
-
 import '../../Styles/header.css'
 function Header() {
     return (

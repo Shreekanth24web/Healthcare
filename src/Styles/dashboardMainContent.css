@@ -3,20 +3,22 @@
     align-items: center;
     gap: 20px;
     background-color: #fff;  
-    margin-right: 100px;
     flex-wrap: wrap;
+     
 }
  
 .dashMainContent-calendarView{
     display: flex;
     flex-direction: column;
-    background-color:  #eef2ff; 
+    background-color:  #eef2ff;  
+
 }
 .dashOverview-Anatomy-HealthStatus {
     display: flex;
     align-items: center;
-    margin-left: 60px;
-    flex-wrap: wrap; 
+    margin-left: 80px;
+    flex-wrap: wrap;  
+
 }
 
 @media(max-width:375px){

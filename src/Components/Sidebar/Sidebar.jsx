@@ -24,7 +24,7 @@ function LogoWithSidebar() {
             <div className="tools">
                 { Tools.map((tool, i)=>{
                     return(
-                        <div key={i} className='sidebar-tools' style={{marginTop: i===2? 220:''}}>
+                        <div key={i} className='sidebar-tools' style={{marginTop: i===2? 150:''}}>
                             <img src={tool.icon} alt={`${tool.toolName}-ToolIcon_Error`} />
                             <li>{tool.toolName}</li>
                         </div>

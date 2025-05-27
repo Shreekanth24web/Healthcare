@@ -14,7 +14,7 @@
 .logo p {
     color: #01e5f1;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 35px;
     cursor: pointer;
 }
@@ -31,16 +31,16 @@
     display: flex;
     align-items: center;
     background-color: #fff;
-    padding: 25px 30px 20px 10px;
-    margin-right: 506px;
-    /* flex-wrap: wrap; */
+    padding: 30px 22px 30px 6px;
+    margin-right: 360px;
+    
 }
 
 .search-input input {
-    padding: 14px 10px;
+    padding: 8px 10px;
     border: none;
-    font-size: 20px;
-    width: 600px;
+    font-size: 14px;
+    width: 500px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 2px solid whitesmoke;
@@ -66,7 +66,6 @@
 .search-icon i,
 .serach-bell i {
     padding: 8px;
-    font-size: 30px;
     color: #2A2B77;
 }
 
@@ -86,8 +85,8 @@
 
 .profile-img img,
 .profile-img i {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     background-color: #01e5f1;
     border-radius: 8px;
     padding: 5px;
@@ -95,7 +94,7 @@
 }
 
 .profile-img i {
-    font-size: 30px;
+    font-size: 20px; 
     text-align: center;
     font-weight: 200;
     color: white;

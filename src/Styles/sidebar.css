@@ -4,11 +4,12 @@
     align-items: start;
     flex-wrap: wrap;
     padding: 0px 50px 0px 50px;
+     
 }
 
 .sidebar-text p,
 .tool-text p {
-    font-size: 16px;
+    font-size: 14px;
     color: lightgrey;
     margin-bottom: 20px;
 }
@@ -16,20 +17,22 @@
 .tool-text p {
     margin-top: 20px;
 }
-
+.sidebar-navlink img{
+    height: 20px;
+}
 .sidebar-navlink,
 .sidebar-tools {
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     cursor: pointer;
 }
 
 .sidebar-navlink li,
 .sidebar-tools li {
     list-style-type: none;
-    font-size: 18px;
+    font-size: 14px;
     color: grey;
     font-weight: 500;
 }
@@ -47,6 +50,7 @@
 }
 
 .sidebar-tools img {
+    height: 20px;
     opacity: 0.3;
 }
 

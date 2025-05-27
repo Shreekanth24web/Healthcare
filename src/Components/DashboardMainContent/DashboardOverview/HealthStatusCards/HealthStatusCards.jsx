@@ -18,8 +18,7 @@ function HealthStatusCards() {
                                 </div>
                                 <div className="healthStatus-date">
                                     <p>{`Date: ${ele.Date}`}</p>
-                                    <input type="range" value={ele.progress} style={{ width: "220px", background: `linear-gradient(to right, ${ele.color} ${ele.progress}%,rgb(211, 211, 211) ${ele.progress}% )` }} />
-
+                                    <input type="range" value={ele.progress} style={{ width: "150px", background: `linear-gradient(to right, ${ele.color} ${ele.progress}%,rgb(211, 211, 211) ${ele.progress}% )` }} />
                                 </div>
                                 <br />
                             </div>

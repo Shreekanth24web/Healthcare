@@ -1,19 +1,20 @@
 .upcomingSchedule{
-    padding-left: 70px; 
+    padding-left: 36px;
+    padding-right: 90px; 
 }
-.upcomingSchedule h2 {
+.upcomingSchedule h3 {
     color: #06073a;
     font-weight: 600;
     opacity: 0.9;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
-.schedule-day h3{
+.schedule-day h4{
     color: #969696;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     opacity: 0.9;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 .schedule-card{
     display: grid;
@@ -23,19 +24,19 @@
     margin-bottom: 20px;
 }
 .schedule-event {
-    padding: 8px 25px 16px 25px;
-    border-radius: 30px;
+    padding: 8px 25px 6px 25px;
+    border-radius: 25px;
     background-color: #dce4fc;
     color: #06073a;
     cursor: pointer;
 }
-.schedule-event h3{
+.schedule-event h4{
     font-weight: 500;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .schedule-event p { 
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     opacity: 0.6;
 }
@@ -45,7 +46,7 @@
     justify-content: space-between;
 }
 .event-img-0{
-    height: 45px;
+    height: 30px;
 }
    
  

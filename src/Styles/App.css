@@ -8,6 +8,7 @@ body {
   font-size: 15px;
   min-height: 100vh;
   background-color: #eef2ff;
+  /* background-color: red; */
 }
 
 .content-page {
